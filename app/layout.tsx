@@ -98,7 +98,7 @@ export const metadata: Metadata = {
     siteName: "RE Congress 2025",
     images: [
       {
-        url: "https://thecentre.ph/recongress2025/assets/posters/re-congress-2025-poster.webp",
+        url: "https://thecentre.ph/recongress2025/assets/posters/re-congress-2025-poster.avif",
         width: 1200,
         height: 630,
         alt: "8th Renewable Energy Congress & Exhibit 2025 - Iloilo City, Philippines",
@@ -111,7 +111,7 @@ export const metadata: Metadata = {
     description:
       "Register for the 8th RE Congress & Exhibit on Dec 11-12, 2025 in Iloilo City to explore just transition financing, resilience, and green jobs.",
     images: [
-      "https://thecentre.ph/recongress2025/assets/posters/re-congress-2025-poster.webp",
+      "https://thecentre.ph/recongress2025/assets/posters/re-congress-2025-poster.avif",
     ],
   },
   category: "Energy & Environment",
@@ -157,7 +157,7 @@ const jsonLd = {
     },
   },
   image:
-    "https://thecentre.ph/recongress2025/assets/posters/re-congress-2025-poster.webp",
+    "https://thecentre.ph/recongress2025/assets/posters/re-congress-2025-poster.avif",
   organizer: {
     "@type": "Organization",
     name: "Center for Empowerment, iNnovation, and Training on Renewable Energy (CentRE)",

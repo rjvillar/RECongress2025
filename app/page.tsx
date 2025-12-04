@@ -19,16 +19,15 @@ export default function HomePage() {
       {/* Hero Banner */}
       <section className="relative min-h-[550px] flex items-center justify-center bg-navy text-white overflow-hidden">
         {/* Poster background */}
-        <div
-          className="absolute inset-0 opacity-[0.5]"
-          style={{
-            backgroundImage:
-              "url(/recongress2025/assets/logos/re-congress-poster.webp)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        ></div>
+        <div className="absolute inset-0 opacity-[0.5]">
+          <Image
+            src="/recongress2025/assets/logos/re-congress-poster.avif"
+            alt="RE Congress 2025 Poster Background"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+        </div>
 
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-linear-to-r from-primary via-teal to-primary"></div>
 

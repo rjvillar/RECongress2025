@@ -15,7 +15,7 @@ const POSTERS: Poster[] = [
   {
     id: "poster-1",
     title: "RE Congress 2025 Main Poster",
-    image: "/recongress2025/assets/posters/re-congress-2025-poster.webp",
+    image: "/recongress2025/assets/posters/re-congress-2025-poster.avif",
     description:
       "Official event poster highlighting the congress theme and key details.",
   },
