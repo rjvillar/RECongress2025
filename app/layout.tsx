@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   applicationName: "RE Congress 2025",
   description:
-    "Join the 8th Renewable Energy Congress & Exhibit 2025 in Iloilo City to connect with Philippine policymakers, investors, and innovators accelerating a just energy transition.",
+    "Join the 8th RE Congress & Exhibit 2025 in Iloilo City. Connect with leaders accelerating the Philippines' just energy transition.",
   keywords: [
     "Philippines renewable energy summit",
     "Iloilo energy conference",
@@ -83,10 +83,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://thecentre.ph/recongress2025",
-    languages: {
-      "en-PH": "https://thecentre.ph/recongress2025",
-      "en-US": "https://thecentre.ph/recongress2025",
-    },
   },
   openGraph: {
     title: "RE Congress 2025 | Philippines Renewable Energy Summit",
@@ -98,7 +94,7 @@ export const metadata: Metadata = {
     siteName: "RE Congress 2025",
     images: [
       {
-        url: "https://thecentre.ph/recongress2025/assets/posters/re-congress-2025-poster.avif",
+        url: "https://thecentre.ph/recongress2025/assets/posters/preview.png",
         width: 1200,
         height: 630,
         alt: "8th Renewable Energy Congress & Exhibit 2025 - Iloilo City, Philippines",
@@ -110,9 +106,7 @@ export const metadata: Metadata = {
     title: "RE Congress 2025 | Philippines Renewable Energy Summit",
     description:
       "Register for the 8th RE Congress & Exhibit on Dec 11-12, 2025 in Iloilo City to explore just transition financing, resilience, and green jobs.",
-    images: [
-      "https://thecentre.ph/recongress2025/assets/posters/re-congress-2025-poster.avif",
-    ],
+    images: ["https://thecentre.ph/recongress2025/assets/posters/preview.png"],
   },
   category: "Energy & Environment",
   icons: {
@@ -156,8 +150,7 @@ const jsonLd = {
       addressCountry: "PH",
     },
   },
-  image:
-    "https://thecentre.ph/recongress2025/assets/posters/re-congress-2025-poster.avif",
+  image: "https://thecentre.ph/recongress2025/assets/posters/preview.png",
   organizer: {
     "@type": "Organization",
     name: "Center for Empowerment, iNnovation, and Training on Renewable Energy (CentRE)",

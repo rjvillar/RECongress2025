@@ -42,6 +42,8 @@ export default function HomePage() {
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-klein mb-6 leading-tight tracking-tight">
             {EVENT_CONFIG.name}
           </h1>
+          
+          <h2 className="sr-only">Philippines Renewable Energy Summit</h2>
 
           <p className="text-lg md:text-xl font-poppins font-light max-w-3xl mx-auto mb-8 text-white/80 leading-relaxed">
             {EVENT_CONFIG.theme}
@@ -78,7 +80,7 @@ export default function HomePage() {
               variant="primary"
               size="lg"
             >
-              Register Now
+              Register for Congress
             </Button>
             <Button
               href="/activities"

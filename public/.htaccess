@@ -17,6 +17,20 @@ Satisfy Any
 Allow from all
 
 # ===========================================
+# Redirect www to non-www (Canonical Domain)
+# ===========================================
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www\.thecentre\.ph [NC]
+  RewriteRule ^(.*)$ https://thecentre.ph/$1 [L,R=301]
+</IfModule>
+
+# ===========================================
+# Force Charset
+# ===========================================
+AddDefaultCharset UTF-8
+
+# ===========================================
 # Force correct MIME types (CRITICAL for CSS/JS/Fonts)
 # ===========================================
 AddType text/css .css
