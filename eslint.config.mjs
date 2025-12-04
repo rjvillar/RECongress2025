@@ -12,7 +12,19 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Ignore markdown files
+    "**/*.md",
   ]),
+  {
+    rules: {
+      // Disable Tailwind class name suggestions (causes false positives in v4)
+      "@tailwindcss/classnames-order": "off",
+      "@tailwindcss/enforces-shorthand": "off",
+      "@tailwindcss/no-contradicting-classname": "off",
+      // Disable React strict mode warnings for valid patterns
+      "react-compiler/react-compiler": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;
