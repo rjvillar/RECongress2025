@@ -121,10 +121,6 @@ export default function Countdown() {
               </div>
             ))}
           </div>
-
-          <p className="mt-6 text-gray-600 font-poppins">
-            {EVENT_CONFIG.dates} • {EVENT_CONFIG.venue}
-          </p>
         </div>
       </div>
     </section>
