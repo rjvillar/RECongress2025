@@ -42,7 +42,7 @@ export default function HomePage() {
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-klein mb-6 leading-tight tracking-tight">
             {EVENT_CONFIG.name}
           </h1>
-          
+
           <h2 className="sr-only">Philippines Renewable Energy Summit</h2>
 
           <p className="text-lg md:text-xl font-poppins font-light max-w-3xl mx-auto mb-8 text-white/80 leading-relaxed">
@@ -326,7 +326,7 @@ export default function HomePage() {
               className="h-auto shrink-0"
             />
             <Image
-              src="/recongress2025/assets/logos/fes-logo.png"
+              src="https://philippines.fes.de/_assets/9cec337f7d9b8a112ff7bc4a21068e10/Icons/General/logo-fes.svg"
               alt="Friedrich Ebert Stiftung"
               width={90}
               height={90}

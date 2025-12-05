@@ -145,9 +145,13 @@ export default function ConsultationPage() {
             centered
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             {CONSULTATION_EXPERTS.map((expert) => (
-              <ExpertCard key={expert.id} expert={expert} />
+              <ExpertCard
+                key={expert.id}
+                expert={expert}
+                className="w-full md:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.75rem)]"
+              />
             ))}
           </div>
         </div>
@@ -293,9 +297,17 @@ function ScheduleCard({
   );
 }
 
-function ExpertCard({ expert }: { expert: ConsultationExpert }) {
+function ExpertCard({
+  expert,
+  className = "",
+}: {
+  expert: ConsultationExpert;
+  className?: string;
+}) {
   return (
-    <div className="bg-white rounded-xl p-5 hover:shadow-md transition-shadow border border-gray-100">
+    <div
+      className={`bg-white rounded-xl p-5 hover:shadow-md transition-shadow border border-gray-100 ${className}`}
+    >
       <div className="flex items-center gap-4 mb-3">
         <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
           {expert.photo ? (

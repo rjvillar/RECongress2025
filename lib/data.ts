@@ -869,6 +869,14 @@ export const CONSULTATION_EXPERTS: ConsultationExpert[] = [
   },
   {
     id: "expert-2",
+    name: "Mr. Juan Miguel Consolacion",
+    expertise: "RE Technology",
+    organization: "Senior Policy Officer, Global Wind Energy Council",
+    photo: "/recongress2025/assets/people/jigs-consolacion.jpg",
+    availableSlots: ["Day 1: 10:55-15:30", "Day 2: 12:00-13:00"],
+  },
+  {
+    id: "expert-3",
     name: "Ms. Grace Yeneza",
     expertise: "Project Development",
     organization: "Executive Director, Preferred Energy, Inc.",
@@ -876,7 +884,7 @@ export const CONSULTATION_EXPERTS: ConsultationExpert[] = [
     availableSlots: ["Day 1: 10:55-15:30", "Day 2: 12:00-13:00"],
   },
   {
-    id: "expert-3",
+    id: "expert-4",
     name: "Dr. Nelson Enano, Jr.",
     expertise: "Policy",
     organization:
@@ -885,7 +893,7 @@ export const CONSULTATION_EXPERTS: ConsultationExpert[] = [
     availableSlots: ["Day 1: 10:55-15:30", "Day 2: 12:00-13:00"],
   },
   {
-    id: "expert-4",
+    id: "expert-5",
     name: "Mr. Ivan Christian Limjuco",
     expertise: "Finance",
     organization: "Philippines Program Manager, Allotrope Partners",
@@ -893,11 +901,19 @@ export const CONSULTATION_EXPERTS: ConsultationExpert[] = [
     availableSlots: ["Day 1: 10:55-15:30", "Day 2: 12:00-13:00"],
   },
   {
-    id: "expert-5",
+    id: "expert-6",
     name: "Mr. Joshua Soroño",
     expertise: "Finance",
     organization: "Country Assistant Manager, Allotrope Partners",
     photo: "/recongress2025/assets/people/joshua-sorono.webp",
+    availableSlots: ["Day 1: 10:55-15:30", "Day 2: 12:00-13:00"],
+  },
+  {
+    id: "expert-7",
+    name: "Mr. Matthew Carpio",
+    expertise: "Finance",
+    organization: "Head of Transaction Advisory, Climate Smart Ventures",
+    photo: "/recongress2025/assets/people/matthew-carpio.jpg",
     availableSlots: ["Day 1: 10:55-15:30", "Day 2: 12:00-13:00"],
   },
 ];
