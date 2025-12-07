@@ -55,12 +55,13 @@ export default function ActivitiesPage() {
               title="Day 1"
               subtitle="December 11, 2025"
               items={[
-                "Opening Ceremonies",
-                "Keynote & Fire Side Chat",
-                "Regional JET Reports",
-                "Panel on Local Leadership",
-                "3 Deep Dive Sessions",
-                "RE Exhibit & CREED",
+                "Opening Ceremonies, Keynote & Fire Side Chat",
+                "Iloilo Declaration",
+                "Regional-National JET Reports",
+                "LGU Dialogue-Convening on JET",
+                "Panel on Local RE Action Leadership",
+                "Consult-an-RE Expert–aDviser (CREED)",
+                "RE Exhibit and Green Jobs-Finance Fair",
               ]}
               color="primary"
             />
@@ -71,8 +72,8 @@ export default function ActivitiesPage() {
                 "3 Deep Dive Sessions",
                 "Grid Operations Panel",
                 "RE Financing Panel",
-                "CREED Consultations",
-                "Green Jobs & Finance Fair",
+                "Consult-an-RE Expert–aDviser (CREED)",
+                "RE Exhibit and Green Jobs-Finance Fair",
               ]}
               color="navy"
             />
@@ -186,13 +187,16 @@ export default function ActivitiesPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12 bg-navy text-white" aria-labelledby="cta-heading">
+      <section
+        className="py-12 bg-navy text-white"
+        aria-labelledby="cta-heading"
+      >
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 id="cta-heading" className="text-2xl md:text-3xl font-klein mb-3">
             Ready to Shape the Philippines&apos; Energy Future?
           </h2>
           <p className="text-sm font-poppins mb-6 text-white/70">
-            Register now for RE Congress 2025 and join the movement accelerating 
+            Register now for RE Congress 2025 and join the movement accelerating
             the just energy transition in Iloilo City
           </p>
           <Link
